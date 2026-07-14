@@ -1,6 +1,16 @@
 import Image from "next/image";
 
-export default function Hero() {
+type HeroProps = {
+  name: string;
+  role: string;
+  description: string;
+};
+
+export default function Hero({
+  name,
+  role,
+  description,
+}: HeroProps) {
   return (
     <section className="hero">
 
@@ -10,13 +20,12 @@ export default function Hero() {
           👋 Hello, I'm
         </p>
 
-        <h1>Jeeshan</h1>
+        <h1>{name}</h1>
 
-        <h2>Full Stack Developer</h2>
+        <h2>{role}</h2>
 
         <p className="hero-description">
-          I build modern web applications using Django, HTML, CSS and
-          JavaScript.
+          {description}
         </p>
 
         <div className="hero-buttons">

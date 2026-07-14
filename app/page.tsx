@@ -11,7 +11,11 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <Hero />
+       <Hero
+  name="Jeeshan"
+  role="Full Stack Developer"
+  description="I build modern web applications using Django, HTML, CSS and JavaScript."
+/>
         <About />
         <Projects />
         <Contact />

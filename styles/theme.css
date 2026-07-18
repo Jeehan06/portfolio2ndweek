@@ -35,13 +35,13 @@
 
 .light-theme {
 
-    --background:#F8F4EC;
+    --background:#3e3a32;
 
     --surface:#FFFDF8;
 
     --card-bg:var(--surface);
 
-    --primary:#2F3E2E;
+    --primary:#69bb63;
 
     --secondary:#6B7280;
 
@@ -49,12 +49,12 @@
 
     --accent:#7A9E7E;
 
-    --text:#2F3E2E;
+    --text:#101110;
 
     --page-background:linear-gradient(
         to bottom,
-        #F8F4EC 0%,
-        #F8F4EC 60%,
+        #464034 0%,
+        #9b9996 60%,
         #A8C8A0 69%,
         #7A9E7E 100%
     );

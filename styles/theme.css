@@ -1,8 +1,10 @@
-:root{
+:root {
 
     --background:#0f0f11;
 
     --surface:#18181b;
+
+    --card-bg:var(--surface);
 
     --primary:#ffffff;
 
@@ -10,10 +12,51 @@
 
     --border:#2d2d2d;
 
-    --accent:#4F8CFF;
+    --accent:#FF5A1F;
 
     --radius:18px;
 
     --transition:.3s ease;
+
+    --text:#ffffff;
+
+    --page-background:linear-gradient(
+        to bottom,
+        #111111 0%,
+        #111111 60%,
+        #FF5A1F 69%,
+        #FF5A1F 100%
+    );
+
+}
+
+
+/* LIGHT THEME */
+
+.light-theme {
+
+    --background:#F8F4EC;
+
+    --surface:#FFFDF8;
+
+    --card-bg:var(--surface);
+
+    --primary:#2F3E2E;
+
+    --secondary:#6B7280;
+
+    --border:#D9D4C7;
+
+    --accent:#7A9E7E;
+
+    --text:#2F3E2E;
+
+    --page-background:linear-gradient(
+        to bottom,
+        #F8F4EC 0%,
+        #F8F4EC 60%,
+        #A8C8A0 69%,
+        #7A9E7E 100%
+    );
 
 }
